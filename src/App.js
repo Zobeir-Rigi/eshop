@@ -1,9 +1,13 @@
 import "./App.css";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
+import StorefrontIcon from "@mui/icons-material/Storefront";
 function App() {
   return (
     <div className="App">
-      <div className="header__logo"></div>
+      <div className="header__logo">
+        <StorefrontIcon className="header__logoImage" fontSize="large" />
+        <h2 className="header__logoTitle">eShop</h2>
+      </div>
       <div className="header__search"></div>
       <div className="haeder__nav">
         <div className="nav__item">
@@ -15,7 +19,7 @@ function App() {
           <span className="nav__itemLineTwo">Shop</span>
         </div>
         <div className="nav__item">
-          <ShoppingBasketIcon fontSize="large"/>
+          <ShoppingBasketIcon />
           <span className="nav__itemLineTwo">0</span>
         </div>
       </div>
