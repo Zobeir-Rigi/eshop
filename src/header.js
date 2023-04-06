@@ -26,7 +26,7 @@ const Header = () => {
           <span className="nav__itemLineTwo">Shop</span>
         </div>
         <div className="nav__item">
-          <ShoppingBasketIcon className="itemBasket" />
+          <ShoppingBasketIcon className="nav__itemBasket" />
           <span className="nav__itemLineTwo nav__basketCount">0</span>
         </div>
       </div>
