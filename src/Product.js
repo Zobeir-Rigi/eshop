@@ -1,27 +1,26 @@
 import React from 'react'
 import "./product.css"
+// import Home from './Home';
 import StarsIcon from "@mui/icons-material/Stars";
-const Product = () => {
+const Product = ({id,title,price,rating,image}) => {
   return (
-    
-      <div className="product">
-        <div className="product__info">
-          <p>Title</p>
+    <div className="product">
+      <div className="product__info">
+          <p>{title}</p>
           <p className="product__price">
             <small>£</small>
-            <strong>30</strong>
+            <strong>{price}</strong>
           </p>
           <div className="product__rating">
-            <StarsIcon />
+            {rating}
           </div>
         </div>
         <img
-          src="https://github.com/Ironhack-Archive/online-clone-amazon/blob/master/img/product_1.jpg?raw=true"
+          src={image}
           alt="product1"
         />
         <button>Add to Basket</button>
-      </div>
-    
+    </div>
   );
 }
 
