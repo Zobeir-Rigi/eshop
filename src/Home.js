@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Home.css"
 import Product from './Product';
+
 const Home = () => {
   return (
-    <div>
       <div className="home">
         <div className="home__container">
           <img
@@ -25,7 +25,6 @@ const Home = () => {
             </div>
         </div>
       </div>
-    </div>
   );
 }
 
