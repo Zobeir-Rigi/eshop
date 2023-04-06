@@ -1,7 +1,7 @@
 import React from 'react'
 import "./product.css"
 // import Home from './Home';
-import StarsIcon from "@mui/icons-material/Stars";
+
 const Product = ({id,title,price,rating,image}) => {
   return (
     <div className="product">
@@ -12,13 +12,16 @@ const Product = ({id,title,price,rating,image}) => {
             <strong>{price}</strong>
           </p>
           <div className="product__rating">
-            {rating}
+            {
+              Array(rating).fill().map(()=>(
+                <p>⭐</p>
+              ))
+            }
           </div>
         </div>
         <img
           src={image}
-          alt="product1"
-        />
+          alt="product1"        />
         <button>Add to Basket</button>
     </div>
   );
