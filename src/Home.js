@@ -11,7 +11,7 @@ const Home = () => {
           alt="Amazon"
           className="home__image"
         />
-        <div className="home__row">
+        <div className="home__row" >
           <Product
             id={1}
             title="Panasonic HC-X20E 4K 60p Professional Camcorder, Video Camera Camcorder with 15-megapixel 1.0-type MOS Sensor, 20x Optical Zoom, i.ZOOM 32x (FHD), 3G-SDI Output, XLR Input, Wired Remote "
