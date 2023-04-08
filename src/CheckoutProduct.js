@@ -9,7 +9,7 @@ const CheckoutProduct = () => {
         className="checkoutproduct__image"
       />
 
-      <div className="product__info">
+      <div className="ckeckoutProduct__info">
         <p className="checkoutProduct__title">
           Panasonic HC-X20E 4K 60p Professional Camcorder, Video Camera
           Camcorder with 15-megapixel 1.0-type MOS Sensor, 20x Optical Zoom,
