@@ -1,7 +1,11 @@
 .CheckoutProduct{
     display: flex;
-    padding: 20px;
-    background-color: white; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ckeckoutProduct__info{
+    padding-left: 20px;
 }
 
 .checkoutproduct__image{
