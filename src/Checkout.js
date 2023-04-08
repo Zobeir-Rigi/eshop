@@ -7,7 +7,7 @@ const Checkout = () => {
     <div className="checkout">
       <div className="checkout__left">
         <img
-          src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6461/6461319_sd.jpg"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnXKKpWFMIcr0OguE6tKEf0GvbJWdG9s_8TIAAbFbqdfCgoJoPRPqN_xudclsDFXpajA&usqp=CAU"
           alt="adverttisment"
           className="checkout__ad"
         />
