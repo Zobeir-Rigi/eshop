@@ -1,4 +1,5 @@
 import React, {createContext,useContext, useReducer} from "react";
+
 // prepers the data layer
 export const StateContext = createContext();
 
@@ -9,5 +10,5 @@ export const StateProvider = ({reducer, initialState, children})=>{
         {children}
     </StateContext.Provider>
 };
-//pull information from the data layer
+//pull information from the data layer to use it in varius components
 export const useStateValue = () => useContext(StateContext);
