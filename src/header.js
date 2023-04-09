@@ -7,7 +7,7 @@ import "./header.css";
 import { useStateValue } from "./StateProvider";
 
 const Header = () => {
-  const [basket, dispatch] = useStateValue;
+  const [basket, dispatch] = useStateValue();
   return (
     <div className="header">
       <Link to="/" style={{ textDecoration: "none" }}>

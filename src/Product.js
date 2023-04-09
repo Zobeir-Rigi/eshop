@@ -1,10 +1,10 @@
 import React from 'react'
 import "./product.css"
-import {useStateValue} from "./StateProvider"
+import { useStateValue } from "./StateProvider"
 
 const Product = ({id,title,price,rating,image}) => {
 
-  const [state, dispatch]=useStateValue; // dispatch is another name for action in reducer func
+  const [state, dispatch]=useStateValue(); // dispatch is another name for action in reducer func
     const addToBasket = () => {
       dispatch({
         type: "ADD_TO_BASKET",
@@ -37,7 +37,7 @@ const Product = ({id,title,price,rating,image}) => {
           alt="product1"        />
         <button onClick={addToBasket}>Add to Basket</button>
     </div>
-  );
+  )
 }
 
 export default Product
