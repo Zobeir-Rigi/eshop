@@ -4,11 +4,13 @@ import StorefrontIcon from "@mui/icons-material/Storefront";
 import SearchIcon from "@mui/icons-material/Search";
 import { Link } from "react-router-dom";
 import "./header.css";
+import { useStateValue } from "./StateProvider";
 
 const Header = () => {
+  const [basket, dispatch] = useStateValue;
   return (
     <div className="header">
-      <Link to="/" style={{textDecoration:"none"}} >
+      <Link to="/" style={{ textDecoration: "none" }}>
         <div className="header__logo">
           <StorefrontIcon className="header__logoImage" fontSize="large" />
           <h2 className="header__logoTitle">eShop</h2>
@@ -28,10 +30,12 @@ const Header = () => {
           <span className="nev__itemLineOne">Your</span>
           <span className="nav__itemLineTwo">Shop</span>
         </div>
-        <Link to="/Checkout" style={{textDecoration:"none"}}>
+        <Link to="/Checkout" style={{ textDecoration: "none" }}>
           <div className="nav__itemBasket">
             <ShoppingBasketIcon />
-            <span className="nav__itemLineTwo nav__basketCount">0</span>
+            <span className="nav__itemLineTwo nav__basketCount">
+              {basket.lenght}
+            </span>
           </div>
         </Link>
       </div>
