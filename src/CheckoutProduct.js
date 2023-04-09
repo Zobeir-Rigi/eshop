@@ -1,6 +1,6 @@
 import React from 'react'
 import "./CheckoutProduct.css";
-const CheckoutProduct = (id,image,title,price,rating) => {
+const CheckoutProduct = ({id,image,title,price,rating}) => {
   return (
     <div className="CheckoutProduct">
       <img src={image} alt="" className="checkoutproduct__image" />
