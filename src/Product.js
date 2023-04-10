@@ -5,6 +5,7 @@ import { useStateValue } from "./StateProvider"
 const Product = ({id,title,price,rating,image}) => {
 
   const [state, dispatch]=useStateValue(); // dispatch is another name for action in reducer func
+  console.log("I'm state in the Product.js" ,state)
     const addToBasket = () => {
       dispatch({
         type: "ADD_TO_BASKET",
