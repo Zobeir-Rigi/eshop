@@ -14,10 +14,12 @@ function App() {
         <Header />
         <Routes>
           <Route path="/Login" element={<Login />}/>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<><Home />
+            <Footer/></>
+          } />
           <Route path="/Checkout" element={<Checkout />} />
         </Routes>
-        <Footer/>
+        
       </BrowserRouter>
     </div>
   );
