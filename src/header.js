@@ -22,10 +22,12 @@ const Header = () => {
         <SearchIcon className="header__searchIcon" />
       </div>
       <div className="haeder__nav">
-        <div className="nav__item">
-          <span className="nev__itemLineOne">Hello Guest</span>
-          <span className="nav__itemLineTwo">Sign In</span>
-        </div>
+      <Link to="/Login" style={{textDecoration:"none"}}>
+          <div className="nav__item">
+            <span className="nev__itemLineOne">Hello Guest</span>
+            <span className="nav__itemLineTwo">Sign In</span>
+          </div>
+        </Link>
         <div className="nav__item">
           <span className="nev__itemLineOne">Your</span>
           <span className="nav__itemLineTwo">Shop</span>
