@@ -1,0 +1,25 @@
+.footer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  
+}
+.footer__logo {
+  display: flex;
+  align-items: center;
+  color: orange;
+  margin: 0 25px; /*?? */
+}
+.myname {
+  text-decoration: none;
+  border: 0;
+  color: white;
+}
+
+.githubIcon {
+  color: orange;
+  margin: 0 15px; /*?? */
+
+}
+

@@ -1,10 +1,16 @@
 import React from 'react'
 import GitHubIcon from "@mui/icons-material/GitHub";
+import "./Footer.css"
+
 const Footer = () => {
   return (
     <div className="footer">
-      <span className="myname">Created By @Zobeir</span>
-      <span className="githubIcon"><GitHubIcon /></span>
+      <div className="footer__logo">
+        <i className="myname">Created By @Zobeir</i>
+        <a href="https://github.com/Zobeir-Rigi" target="_blank">
+          <GitHubIcon className="githubIcon" />
+        </a>
+      </div>
     </div>
   );
 }
