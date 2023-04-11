@@ -7,7 +7,7 @@ import "./header.css";
 import { useStateValue } from "./StateProvider";
 
 const Header = () => {
-  const [basket, dispatch] = useStateValue();
+  const [{basket}, dispatch] = useStateValue();
   return (
     <div className="header">
       <Link to="/" style={{ textDecoration: "none" }}>
@@ -34,7 +34,7 @@ const Header = () => {
           <div className="nav__itemBasket">
             <ShoppingBasketIcon />
             <span className="nav__itemLineTwo nav__basketCount">
-              {basket.lenght}
+              {basket.length}
             </span>
           </div>
         </Link>
