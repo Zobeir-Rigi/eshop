@@ -3,6 +3,9 @@
 export const initialState = {
   basket: [],
 };
+export const getBasketTotal = (basket) => {
+  return basket?.reduce((amount, item) => item.price + amount, 0).toFixed(2);
+};
 
 //Selector
 // current state and action to make changes to th state
