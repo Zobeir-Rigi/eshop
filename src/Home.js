@@ -4,7 +4,7 @@ import Product from './Product';
 
 const Home = () => {
   return (
-    <div className="home">
+    // <div className="home">
       <div className="home__container">
         <img
           src="https://github.com/Ironhack-Archive/online-clone-amazon/blob/master/img/slide_3.jpg?raw=true"
@@ -60,7 +60,7 @@ const Home = () => {
           />
         </div>
       </div>
-    </div>
+    // </div>
   );
 }
 
