@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import "./Footer.css"
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -13,6 +13,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;

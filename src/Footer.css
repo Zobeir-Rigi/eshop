@@ -19,7 +19,14 @@
 
 .githubIcon {
   color: orange;
-  margin: 0 15px; /*?? */
-
+  width: 50px;
+  padding-left: 10px;
+}
+.githubIcon:hover {
+  color: white;
+  font-size:xx-large;
+}
+.footer__logo>a {
+  width: 50px;
 }
 
