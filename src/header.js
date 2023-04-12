@@ -7,7 +7,7 @@ import "./header.css";
 import { useStateValue } from "./StateProvider";
 
 const Header = () => {
-  const [{basket}, dispatch] = useStateValue();
+  const [{ basket }, dispatch] = useStateValue();
   return (
     <div className="header">
       <Link to="/" style={{ textDecoration: "none" }}>
@@ -18,11 +18,15 @@ const Header = () => {
       </Link>
 
       <div className="header__search">
-        <input type="text" className="header__searchInput" />
+        <input
+          type="text"
+          placeholder="Search you'r product here ..."
+          className="header__searchInput"
+        />
         <SearchIcon className="header__searchIcon" />
       </div>
       <div className="haeder__nav">
-      <Link to="/Login" style={{textDecoration:"none"}}>
+        <Link to="/Login" style={{ textDecoration: "none" }}>
           <div className="nav__item">
             <span className="nev__itemLineOne">Hello Guest</span>
             <span className="nav__itemLineTwo">Sign In</span>
