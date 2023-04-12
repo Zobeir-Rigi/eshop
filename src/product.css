@@ -31,6 +31,7 @@
   margin: 20px 0 0 15px;
 }
 .product > button {
+  width: 120px;
   background: orange;
   color: white;
   font-weight: 500;
@@ -41,8 +42,6 @@
   border-radius: 4px;
 }
 
-.product >button:hover {
-  background-color:orange; 
-    font-weight: 600;
-
+.product > button:hover {
+  font-weight: 600;
 }
