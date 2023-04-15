@@ -30,6 +30,11 @@
   object-fit: contain;
   margin: 20px 0 0 15px;
 }
+.product > img:hover{
+  transform: scale(1.1);
+transition: transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+}
+
 .product > button {
   width: 120px;
   background: orange;
