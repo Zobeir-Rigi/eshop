@@ -1,24 +1,23 @@
 import React, { useState } from "react";
 import "./Login.css";
-// import { Link, useNavigate } from "react-router-dom";
-import {Link} from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom";
 import StorefrontIcon from "@mui/icons-material/Storefront";
-// import { auth } from "./Firebase";
+import { auth } from "./Firebase";
 function Login() {
-//     const navigate = useNavigate();
+    const navigate = useNavigate();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
-//     const signIn = (e) => {
-//       e.preventDefault();
+    const signIn = (e) => {
+      e.preventDefault();
 
-    //   auth
-    //     .signInWithEmailAndPassword(email, password)
-    //     .then((auth) => {
-    //       navigate("/");
-    //     })
-    //     .catch((error) => alert(error.message));
-    // };
+      auth
+        .signInWithEmailAndPassword(email, password)
+        .then((auth) => {
+          navigate("/");
+        })
+        .catch((error) => alert(error.message));
+    };
   
    return (
      <div className="login">
