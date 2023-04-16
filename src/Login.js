@@ -18,6 +18,20 @@ function Login() {
         })
         .catch((error) => alert(error.message));
     };
+
+     const register = (e) => {
+       e.preventDefault();
+
+       auth
+         .createUserWithEmailAndPassword(email, password)
+         .then((auth) => {
+           if (auth) {
+             navigate("/");
+           }
+         })
+         .catch((error) => alert(error.message));
+     };
+
   
    return (
      <div className="login">
@@ -49,7 +63,7 @@ function Login() {
            <button
              type="submit"
              className="login__signInButton"
-            //  onClick={signIn}
+             onClick={signIn}
            >
              Sign In
            </button>
