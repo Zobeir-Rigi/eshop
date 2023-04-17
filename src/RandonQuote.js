@@ -21,7 +21,7 @@ const RandomQuote = () => {
 
   return (
     <div>
-      <h2>Random Quote</h2>
+      <h2>Apple's Quotes</h2>
       <p>{quote.quote}</p>
       <p>- {quote.author}</p>
     </div>

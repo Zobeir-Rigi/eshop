@@ -3,28 +3,23 @@ import React from 'react'
 import "./Home.css"
 import Product from './Product';
 import RandomQuote from './RandonQuote';
-// import quotes from "./quotes.json"
-// function pickFromArray(arr) {
-//   return arr[Math.floor(Math.random() * arr.length)];
-// }
 
 const Home = () => {
-// const [quote, setquote] =useState("")
-// useEffect(() => {
-//   setquote(pickFromArray(quotes));
-// }, []);
+
   return (
     // <div className="home">
-    <div className="home__container">
+   <div className="home__container">
       <div className="home_hero">
-        <h2 className="hero_title">
-          <span> MacBook Pro </span>
-        </h2>
-        <div className="quets">
+         <div className="quets">
           <RandomQuote />
-        </div>
+        </div> 
+        <h2 className="hero_title">
+           <span> MacBook Pro </span>
+          </h2>
+        
         <p>Mover. Maker. Boundary breaker.</p>
         <span> From £2,149</span>
+        
         <div alt="Amazon" className="home__image" />
       </div>
       <div className="home__row">
