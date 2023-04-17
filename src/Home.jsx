@@ -1,16 +1,33 @@
 import React from 'react'
+// import { useEffect, useState } from 'react';
 import "./Home.css"
 import Product from './Product';
+import RandomQuote from './RandonQuote';
+// import quotes from "./quotes.json"
+// function pickFromArray(arr) {
+//   return arr[Math.floor(Math.random() * arr.length)];
+// }
+
 const Home = () => {
+// const [quote, setquote] =useState("")
+// useEffect(() => {
+//   setquote(pickFromArray(quotes));
+// }, []);
   return (
     // <div className="home">
     <div className="home__container">
-      <img
-        src="https://github.com/Ironhack-Archive/online-clone-amazon/blob/master/img/slide_3.jpg?raw=true"
-        alt="Amazon"
-        className="home__image"
-      />
-      <div className="home__row" >
+      <div className="home_hero">
+        <h2 className="hero_title">
+          <span> MacBook Pro </span>
+        </h2>
+        <div className="quets">
+          <RandomQuote />
+        </div>
+        <p>Mover. Maker. Boundary breaker.</p>
+        <span> From £2,149</span>
+        <div alt="Amazon" className="home__image" />
+      </div>
+      <div className="home__row">
         <Product
           id={1}
           title="Panasonic HC-X20E 4K 60p Professional Camcorder, Video Camera Camcorder with 15-megapixel 1.0-type MOS Sensor, 20x Optical Zoom, i.ZOOM 32x (FHD), 3G-SDI Output, XLR Input, Wired Remote "
