@@ -8,23 +8,24 @@ const RandomQuote = () => {
     return arr[Math.floor(Math.random() * arr.length)];
   };
 
-  const generateRandomQuote = () => {
-    const randomQuote = pickFromArray(quotes);
-    setQuote(randomQuote);
-  };
-
   useEffect(() => {
-    generateRandomQuote();
+    const intervalId = setInterval(() => {
+      const randomQuote = pickFromArray(quotes);
+      setQuote(randomQuote);
+    }, 5000);
+
+    return () => {
+      clearInterval(intervalId);
+    };
   }, []);
 
- return (
-   <div>
-     <h2>Random Quote</h2>
-     <p>{quote.quote}</p>
-     <p>- {quote.author}</p>
-     <button onClick={generateRandomQuote}>Generate Random Quote</button>
-   </div>
- );
+  return (
+    <div>
+      <h2>Random Quote</h2>
+      <p>{quote.quote}</p>
+      <p>- {quote.author}</p>
+    </div>
+  );
 };
 
 export default RandomQuote;
