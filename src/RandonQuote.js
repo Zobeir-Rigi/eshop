@@ -18,12 +18,18 @@ const RandomQuote = () => {
       clearInterval(intervalId);
     };
   }, []);
+  const styles ={
+        borderRadius: '50%',
+        width:"200px",
+        height:"200px"
+  }
 
   return (
     <div>
       <h2>Apple's Quotes</h2>
       <p>{quote.quote}</p>
       <p>{quote.author}</p>
+      <img src={quote.image} style={styles}/>
     </div>
   );
 };

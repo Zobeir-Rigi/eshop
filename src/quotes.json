@@ -2,33 +2,44 @@
   {
     "quote": "The iPhone killed romance and turned us all into lazy, nasty stalkers... ",
     "id": 1,
-    "author":"Caroline Kepnes, You Love Me"
+    "author":"Caroline Kepnes, You Love Me",
+    "image":"https://img.maximummedia.ie/her_ie/eyJkYXRhIjoie1widXJsXCI6XCJodHRwOlxcXC9cXFwvbWVkaWEtaGVyLm1heGltdW1tZWRpYS5pZS5zMy5hbWF6b25hd3MuY29tXFxcL3dwLWNvbnRlbnRcXFwvdXBsb2Fkc1xcXC8yMDIwXFxcLzAxXFxcLzAzMTA1NDM1XFxcL3NjcmVlbnNob3QtMjAxOS0xMi0yMS1hdC0xNS0yMy0xNS5wbmdcIixcIndpZHRoXCI6NzQwLFwiaGVpZ2h0XCI6NDE2LFwiZGVmYXVsdFwiOlwiaHR0cHM6XFxcL1xcXC93d3cuaGVyLmllXFxcL2Fzc2V0c1xcXC9pbWFnZXNcXFwvaGVyXFxcL25vLWltYWdlLnBuZz9pZD1iNmY4NGQ2MjdiNDExNGYwMGY1MFwiLFwib3B0aW9uc1wiOltdfSIsImhhc2giOiIwNTQ1ZmIyNDhhMTZmNzRjMTkyMmE4ZWUxN2E3YjlhY2EzMGQxNzlhIn0=/screenshot-2019-12-21-at-15-23-15.png"
   },
   {
-    "quote": "“The iPhone actually takes pretty damn good photos—even Annie Leibovitz thinks so. ",
+    "quote": "The iPhone actually takes pretty damn good photos—even Annie Leibovitz thinks so. ",
     "id": 2,
-    "author":"A.D. Aliwat, In Limbo"
+    "author": "A.D. Aliwat, In Limbo",
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/authors/1673140163i/7415311._UY200_CR33,0,200,200_.jpg"
   },
 
   {
-    "quote": "“A selfie has more face and fewer feelings.” ",
+    "quote": "A selfie has more face and fewer feelings.",
     "id": 3,
-    "author": " Amit Kalantri, Wealth of Words "
+    "author": " Amit Kalantri, Wealth of Words ",
+    "image":"https://amitkalantri.files.wordpress.com/2017/11/amit-kalantri-1.jpeg?w=200"
   },
   {
-    "quote": "“When he’s staring into a screen, he’s staring into the abyss. That void of his own making. Of course the abyss would stare back at you.” ",
+    "quote": "When he’s staring into a screen, he’s staring into the abyss. That void of his own making. Of course the abyss would stare back at you. ",
     "id": 4,
-    "author": " A.D. Aliwat, In Limbo  "
+    "author": " A.D. Aliwat, In Limbo  ",
+    "image" :"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/authors/1673140163i/7415311._UY200_CR33,0,200,200_.jpg"
   },
   {
-    "quote": "“With the selfies, a photographer has finally found his place in a photograph.” ",
+    "quote": "With the selfies, a photographer has finally found his place in a photograph. ",
     "id": 5,
-    "author": " Amit Kalantri, Wealth of Words "
+    "author": " Amit Kalantri, Wealth of Words ",
+    "image": "https://amitkalantri.files.wordpress.com/2017/11/amit-kalantri-1.jpeg?w=200"
   },
   {
     "quote":"Being the richest man in the cemetery doesn’t matter to me Going to bed at night saying we ve done something wonderful” that’s what matters to me. – Steve Jobs in The Wall Street Journal, May 25, 1993.",
     "id":6,
-    "author" : " Steve Jobs"
+    "author" : " Steve Jobs",
+    "image": "https://www.novinite.com/media/images/2011-10/photo_verybig_132710.jpg"
 
+  },{
+    "quote":"The iPhone killed romance and turned us all into lazy, nasty stalkers... ",
+    "id":7,
+    "author":" Caroline Kepnes, You Love Me ",
+    "image":"https://images.gr-assets.com/authors/1417479736p5/202260.jpg"
   }
 ]
