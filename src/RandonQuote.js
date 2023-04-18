@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import quotes from "./quotes.json";
-
+import "./RandonQuote.css";
 const RandomQuote = () => {
   const [quote, setQuote] = useState("");
 
@@ -18,18 +18,14 @@ const RandomQuote = () => {
       clearInterval(intervalId);
     };
   }, []);
-  const styles ={
-        borderRadius: '50%',
-        width:"200px",
-        height:"200px"
-  }
+
 
   return (
-    <div>
+    <div className="quotes">
       <h2>Apple's Quotes</h2>
-      <p>{quote.quote}</p>
-      <p>{quote.author}</p>
-      <img src={quote.image} style={styles}/>
+      <p >{quote.quote}</p>
+      <img src={quote.image}  alt="quet"/>
+      <h4>{quote.author}</h4>
     </div>
   );
 };

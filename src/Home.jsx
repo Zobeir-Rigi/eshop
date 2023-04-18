@@ -10,9 +10,9 @@ const Home = () => {
     // <div className="home">
     <div className="home__container">
       <div className="home_hero">
-        <div className="quets">
+        
           <RandomQuote />
-        </div>
+        
         <h2 className="hero_title">
           <span> MacBook Pro </span>
         </h2>

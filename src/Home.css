@@ -4,6 +4,7 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 1500px;
+
 }
 .home__container {
 }
@@ -14,6 +15,12 @@
   color: #f5f5f7;
   padding: 54px 0 52px;
   align-items: center;
+   font-size: 21px;
+  line-height: 1.19048;
+  font-weight: 600;
+  letter-spacing: .011em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
 }
 
 .quets{
@@ -25,6 +32,7 @@
   margin-bottom: 20px;
   line-height: 1cm;
   height: 400px;
+  
 
 }
 
