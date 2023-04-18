@@ -17,7 +17,6 @@ background-color: #fbfbfd;
   position: sticky; /* ??*/
   top: 0;
   z-index: 100; /* ?? */
-  width: 600px;
 background-color: #fbfbfd;
 
 }
@@ -76,9 +75,10 @@ background-color: #fbfbfd;
   font-size: 10px;
 }
 .nav__itemLineTwo {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 800;
-  width: 43px;
+  padding: 0;
+  margin: 0;
 }
 .nav__itemBasket {
   display: flex;

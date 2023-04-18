@@ -41,7 +41,7 @@ const Header = () => {
             <div className="nav__itemBasket">
               <ShoppingBasketIcon />
               <span className="nav__itemLineTwo nav__basketCount">
-                {basket.length}
+                {[...basket].length}
               </span>
             </div>
           </Link>
