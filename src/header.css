@@ -1,11 +1,13 @@
+
 header{
   width: 100%;
   display: flex;
   justify-content: center;
   color: rgba(0, 0, 0, .8);
 cursor: default;
-background-color: black;
-border-bottom: solid rgb(206, 197, 197) 1px;
+background-color: #fbfbfd;
+/* border-bottom: solid rgb(206, 197, 197) 1px; */
+
 
 }
 .header {
@@ -16,7 +18,7 @@ border-bottom: solid rgb(206, 197, 197) 1px;
   top: 0;
   z-index: 100; /* ?? */
   width: 600px;
-background-color: black;
+background-color: #fbfbfd;
 
 }
 
@@ -24,7 +26,8 @@ background-color: black;
   display: flex;
   align-items: center;
   margin: 0 25px; /*?? */
-    color: white;
+  color: rgba(0, 0, 0, .8);
+  /* width: 130px; */
 
 }
 .header__logoImage {
@@ -52,12 +55,13 @@ background-color: black;
 .header__searchIcon {
   padding: 5px;
   height: 22px !important;
-  background-color: white;
+  background-color: #fbfbfd;
 }
 /*************************/
 .haeder__nav {
   display: flex;
   justify-content: space-evenly;
+  width: fit-content;
 
 }
 .nav__item {
@@ -65,7 +69,7 @@ background-color: black;
   flex-direction: column;
   margin-left: 10px;
   margin-right: 10px;
-    color: white;
+  color: rgba(0, 0, 0, .8);
 
 }
 .nev__itemLineOne {
@@ -74,13 +78,14 @@ background-color: black;
 .nav__itemLineTwo {
   font-size: 13px;
   font-weight: 800;
+  width: 43px;
 }
 .nav__itemBasket {
   display: flex;
   align-items: center;
   margin-right: 50px;
   margin-left: 10px;
-    color: white;
+  color: rgba(0, 0, 0, .8);
 
 }
 .nav__basketCount {

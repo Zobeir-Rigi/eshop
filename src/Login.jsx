@@ -38,7 +38,7 @@ function Login() {
        <Link to="/" style={{ textDecoration: "none" }}>
          <div className="login__logo">
            <AppleIcon className="login__logoImage" fontSize="large" />
-           <h2 className="login__logoTitle">eSHOP</h2>
+           <h2 className="login__logoTitle">The iLife</h2>
          </div>
        </Link>
 
@@ -70,6 +70,7 @@ function Login() {
          </form>
 
          <p>
+         <input type="checkbox"></input>
            By signing-in you agree to the eShop Website Conditions of Use &
            Sale. Please see our Privacy Notice, our Cookies Notice and our
            Interest-Based Ads Notice.

@@ -1,5 +1,7 @@
 import React from 'react'
 import "./CheckoutProduct.css";
+import StarHalfIcon from "@mui/icons-material/StarHalf";
+
 import {useStateValue} from "./StateProvider"
 const CheckoutProduct = ({id,image,title,price,rating}) => {
   const [{basket},dispatch]=useStateValue();
@@ -23,8 +25,10 @@ const CheckoutProduct = ({id,image,title,price,rating}) => {
         <div className="checkoutProduct__rating">
           {Array(rating)
             .fill()
-            .map(() => (
-              <p>⭐</p>
+            .map((_, i) => (
+              <span className="star-color" key={i}>
+                <StarHalfIcon />
+              </span>
             ))}
         </div>
         <button onClick={removeFromBasket}>Remove from Bag</button>

@@ -9,28 +9,30 @@ const Checkout = () => {
     console.log("I'm dispatch in the Checkout.js",dispatch)
       return (
         <div className="checkout">
-          <div className="checkout__left">
-            <img
-              src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"
-              alt="adverttisment"
-              className="checkout__ad"
-            />
-            <div className="checkout__title">
+          <img
+            src="https://fdn.gsmarena.com/imgroot/news/20/04/apple-iphone-12-delay/-1220x526/gsmarena_000.jpg"
+            alt="adverttisment"
+            className="checkout__ad"
+          />
+          <div className="checkOut_container">
+            <div className="checkout__left">
               <h2>Your shopping Basket</h2>
-              {basket.map((item) => (
-                <CheckoutProduct
-                  id={item.id}
-                  titel={item.title}
-                  image={item.image}
-                  price={item.price}
-                  rating={item.rating}
-                />
-              ))}
-            </div>
-          </div>
+                {basket.map((item) => ( <div className="checkout__Item">
 
-          <div className="Checkout__right">
-            <Subtotal />
+                  <CheckoutProduct
+                    id={item.id}
+                    titel={item.title}
+                    image={item.image}
+                    price={item.price}
+                    rating={item.rating}
+                  /></div>
+                ))}
+              
+            </div>
+
+            <div className="Checkout__right">
+              <Subtotal />
+            </div>
           </div>
         </div>
       );

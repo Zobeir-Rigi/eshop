@@ -1,5 +1,6 @@
 import React from "react";
 import "./product.css";
+import StarHalfIcon from "@mui/icons-material/StarHalf";
 import { useStateValue } from "./StateProvider";
 
 const Product = ({ id, title, price, rating, image }) => {
@@ -29,7 +30,7 @@ const Product = ({ id, title, price, rating, image }) => {
             .fill()
             .map((_, i) => (
               <span className="star-color" key={i}>
-                ⭐
+                <StarHalfIcon />
               </span>
             ))}
         </div>
