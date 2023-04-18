@@ -9,17 +9,42 @@
 }
 
 .checkoutproduct__image{
-    object-fit: contain /*?? */;
-    height: 180px;
-    width: 180px;
+   max-height: 200px;
+  /* width: 100%; */
+  object-fit: contain;
+  margin: 20px 0 0 15px;
+  transition: transform 0.3s ease-out;
+}
+.checkoutproduct__image:hover {
+  transform: scale(1.1);
+  /* transition: transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s; */
 }
 
 .ckeckoutProduct__info > button{
-    background: #ff9f00;
-    border: 1px solid;
-    margin-top: 10px;
-    border-color: #a88734 #9c7e31 #846a29;
-    color: #111;
+   margin-top: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  min-width: 28px;
+  padding: 8px 16px;
+  border-radius: 980px;
+  color: #fff;
+  --sk-button-margin-horizontal: 14px;
+  --sk-button-margin-vertical: 14px;
+  background: black;
+}
+
+.ckeckoutProduct__info > button:hover {
+  background: rgb(40, 38, 38);
+  text-decoration: none;
 }
 
 .checkoutProduct__title{

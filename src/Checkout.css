@@ -4,6 +4,9 @@
     background-color: white;
     height: max-content /* ?? */;
 }
+.checkout_map{
+ 
+}
 
 .checkout__ad {
     width: 100%;
@@ -19,6 +22,7 @@
 .checkout__left {
     display: flex;
     flex-direction: column;
+
 }
 .Checkout__right {
     /* position: absolute;

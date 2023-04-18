@@ -17,6 +17,8 @@ const Checkout = () => {
             />
             <div className="checkout__title">
               <h2>Your shopping Basket</h2>
+              </div>
+              <div className='checkout_map'>
               {basket.map((item) => (
                 <CheckoutProduct
                   id={item.id}
