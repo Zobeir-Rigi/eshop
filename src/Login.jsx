@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
 import { Link, useNavigate } from "react-router-dom";
-import StorefrontIcon from "@mui/icons-material/Storefront";
+import AppleIcon from "@mui/icons-material/Apple";
 import { auth } from "./Firebase";
 function Login() {
     const navigate = useNavigate();
@@ -37,7 +37,7 @@ function Login() {
      <div className="login">
        <Link to="/" style={{ textDecoration: "none" }}>
          <div className="login__logo">
-           <StorefrontIcon className="login__logoImage" fontSize="large" />
+           <AppleIcon className="login__logoImage" fontSize="large" />
            <h2 className="login__logoTitle">eSHOP</h2>
          </div>
        </Link>
