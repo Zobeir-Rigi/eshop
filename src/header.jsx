@@ -1,6 +1,6 @@
 import React from "react";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
-import StorefrontIcon from "@mui/icons-material/Storefront";
+import AppleIcon from "@mui/icons-material/Apple";
 import SearchIcon from "@mui/icons-material/Search";
 import { Link } from "react-router-dom";
 import "./header.css";
@@ -9,10 +9,11 @@ import { useStateValue } from "./StateProvider";
 const Header = () => {
   const [{ basket }, dispatch] = useStateValue();
   return (
+    <header>
     <div className="header">
       <Link to="/" style={{ textDecoration: "none" }}>
         <div className="header__logo">
-          <StorefrontIcon className="header__logoImage" fontSize="large" />
+          <AppleIcon className="header__logoImage" fontSize="large" />
           <h2 className="header__logoTitle">eShop</h2>
         </div>
       </Link>
@@ -20,7 +21,7 @@ const Header = () => {
       <div className="header__search">
         <input
           type="text"
-          placeholder="Search you'r product here ..."
+          placeholder="Search apple.com ..."
           className="header__searchInput"
         />
         <SearchIcon className="header__searchIcon" />
@@ -46,6 +47,7 @@ const Header = () => {
         </Link>
       </div>
     </div>
+    </header>
   );
 };
 

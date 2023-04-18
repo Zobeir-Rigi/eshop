@@ -23,7 +23,7 @@ const RandomQuote = () => {
     <div>
       <h2>Apple's Quotes</h2>
       <p>{quote.quote}</p>
-      <p>- {quote.author}</p>
+      <p>{quote.author}</p>
     </div>
   );
 };

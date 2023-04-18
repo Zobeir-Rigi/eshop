@@ -8,18 +8,18 @@ const Home = () => {
 
   return (
     // <div className="home">
-   <div className="home__container">
+    <div className="home__container">
       <div className="home_hero">
-         <div className="quets">
+        <div className="quets">
           <RandomQuote />
-        </div> 
+        </div>
         <h2 className="hero_title">
-           <span> MacBook Pro </span>
-          </h2>
-        
+          <span> MacBook Pro </span>
+        </h2>
+
         <p>Mover. Maker. Boundary breaker.</p>
         <span> From £2,149</span>
-        
+
         <div alt="Amazon" className="home__image" />
       </div>
       <div className="home__row">
