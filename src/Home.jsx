@@ -10,9 +10,8 @@ const Home = () => {
     // <div className="home">
     <div className="home__container">
       <div className="home_hero">
-        
-          <RandomQuote />
-        
+        <RandomQuote />
+
         <h2 className="hero_title">
           <span> MacBook Pro </span>
         </h2>
@@ -25,49 +24,63 @@ const Home = () => {
       <div className="home__row">
         <Product
           id={1}
-          title="Panasonic HC-X20E 4K 60p Professional Camcorder, Video Camera Camcorder with 15-megapixel 1.0-type MOS Sensor, 20x Optical Zoom, i.ZOOM 32x (FHD), 3G-SDI Output, XLR Input, Wired Remote "
-          price={2.181}
+          title="MacBook Air with M2 chip "
+          price={1.249}
           rating={5}
-          image="https://m.media-amazon.com/images/I/71v3aTg8BML._AC_SL1500_.jpg"
+          image="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-macbook-air-202206?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1653499620093"
         />
         <Product
           id={2}
-          title="WOLFANG GA400 Action Camera 4K 60FPS 24MP Underwater Camera, 8M Bare Metal/40M Waterproof Camera, 3.0 EIS Stabilization WiFi Helmet Bike Camera (Remote Control, 2x1350mAh Batteries and Accessory Kit)"
-          price={279.99}
+          title="MacBook Pro 13-inch"
+          price={1.349}
           rating={3}
-          image="https://m.media-amazon.com/images/I/718wAkWOKDL._AC_SL1500_.jpg"
+          image="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-macbook-pro-13-202206?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1665082744007"
         />
-      </div>
-      <div className="home__row">
         <Product
           id={3}
-          title="4K Video Camera Camcorder UHD 48MP WiFi IR Night Vision Vlogging Camera for YouTube Touch Screen 16X Digital Zoom Camera Recorder with Microphone, Handheld Stabilizer, Lens Hood, Remote,2 Batteries  "
-          price={154.99}
+          title="MacBook Pro 14-inch"
+          price={2.149}
           rating={2}
-          image="https://m.media-amazon.com/images/I/81eUw7H78UL._AC_SL1500_.jpg"
+          image="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-14-digitalmat-gallery-1-202301?wid=364&hei=333&fmt=png-alpha&.v=1670360625864"
         />
         <Product
           id={4}
-          title="GoPro HERO11 Black - Waterproof Action Camera with 5.3K60 Ultra HD Video, 27MP Photos, 1/1.9 Image Sensor, Live Streaming, Webcam, Stabilization "
-          price={499.0}
+          title="MacBook Air with M1 chip "
+          price={999}
           rating={5}
-          image="https://m.media-amazon.com/images/I/617sGSjmC1L._AC_SL1500_.jpg"
-        />
-        <Product
-          id={5}
-          title="GoPro Max - Waterproof 360 Digital Action Camera with Unbreakable Stabilisation, Touch Screen and Voice Control - Live HD Streaming, Black "
-          price={437.0}
-          rating={4}
-          image="https://m.media-amazon.com/images/I/71ZBo2ZrNUL._AC_SL1500_.jpg"
+          image="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-card-40-macbook-air-202110?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1664576115052"
         />
       </div>
       <div className="home__row">
         <Product
-          id={6}
-          title="Insta360 ONE RS 4K Edition – Waterproof 4K 60fps Action Camera with FlowState Stabilization, 48MP Photo, Active HDR, AI Editing "
-          price={234.99}
+          id={5}
+          title=" Buy iPhone 14 "
+          price={849}
           rating={4}
-          image="https://m.media-amazon.com/images/I/61nQ14Vp0wL._AC_SL1500_.jpg"
+          image="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-compare-iphone-14-pro-202209?wid=366&hei=508&fmt=jpeg&qlt=90&.v=1661471046256"
+        />
+        <Product
+          id={6}
+          title=" iPhone 13 mini "
+          price={649}
+          rating={4}
+          image="https://www.apple.com/v/iphone-13/f/images/specs/finish_iphone13_mini__egwpixru7kwi_large.jpg"
+        />
+        <Product
+          id={7}
+          title="Buy iPhone SE "
+          price={449}
+          rating={4}
+          image="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-compare-iphone-se-202209?wid=364&hei=508&fmt=jpeg&qlt=90&.v=1660759995953"
+        />
+      </div>
+      <div className="home__row">
+        <Product
+          id={7}
+          title="Pro. Beyond. "
+          price={1.099}
+          rating={4}
+          image="https://www.apple.com/v/iphone/home/bm/images/overview/hero/hero_iphone_14_pro__e8bufymdlseq_large.jpg"
         />
       </div>
     </div>

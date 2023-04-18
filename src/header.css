@@ -4,6 +4,8 @@ header{
   justify-content: center;
   color: rgba(0, 0, 0, .8);
 cursor: default;
+background-color: black;
+border-bottom: solid rgb(206, 197, 197) 1px;
 
 }
 .header {
@@ -14,7 +16,7 @@ cursor: default;
   top: 0;
   z-index: 100; /* ?? */
   width: 600px;
-
+background-color: black;
 
 }
 
@@ -22,7 +24,7 @@ cursor: default;
   display: flex;
   align-items: center;
   margin: 0 25px; /*?? */
-    color: rgba(0, 0, 0, .8);
+    color: white;
 
 }
 .header__logoImage {
@@ -63,7 +65,7 @@ cursor: default;
   flex-direction: column;
   margin-left: 10px;
   margin-right: 10px;
-    color: rgba(0, 0, 0, .8);
+    color: white;
 
 }
 .nev__itemLineOne {
@@ -78,7 +80,7 @@ cursor: default;
   align-items: center;
   margin-right: 50px;
   margin-left: 10px;
-    color: rgba(0, 0, 0, .8);
+    color: white;
 
 }
 .nav__basketCount {

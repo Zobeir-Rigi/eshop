@@ -18,12 +18,12 @@
 }
 
 .githubIcon {
-  color: orange;
+  color: white;
   width: 50px;
   padding-left: 10px;
 }
 .githubIcon:hover {
-  color: white;
+  color: rgb(213, 198, 198);
   font-size:xx-large;
 }
 .footer__logo>a {

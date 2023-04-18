@@ -28,12 +28,14 @@ const Product = ({ id, title, price, rating, image }) => {
           {Array(rating)
             .fill()
             .map((_, i) => (
-              <p key={i}>⭐</p>
+              <span className="star-color" key={i}>
+                ⭐
+              </span>
             ))}
         </div>
       </div>
       <img src={image} alt="product" />
-      <button onClick={addToBasket}>Add to Basket</button>
+      <button onClick={addToBasket}>Add to Bag</button>
     </div>
   );
 };
