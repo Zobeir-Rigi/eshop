@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Login.css";
+import "../Styles/Login.css";
 import { Link, useNavigate } from "react-router-dom";
 import AppleIcon from "@mui/icons-material/Apple";
 import { auth } from "./Firebase";

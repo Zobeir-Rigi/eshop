@@ -59,7 +59,7 @@
 }
 
 .home__image {
-  background-image: url(./img/hero-mac.jpg);
+  background-image: url(../img/hero-mac.jpg);
   width: 738px;
   height: 282px;
   background-size: 738px 282px;

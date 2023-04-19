@@ -1,5 +1,5 @@
-import React from 'react'
-import "./Subtotal.css";
+import React from "react";
+import "../Styles/Subtotal.css";
 import { useStateValue } from "./StateProvider";
 import { getBasketTotal } from "./reducer";
 const Subtotal = () => {
@@ -17,6 +17,6 @@ const Subtotal = () => {
       <button>Proceed to Checkout</button>
     </div>
   );
-}
+};
 
-export default Subtotal
+export default Subtotal;

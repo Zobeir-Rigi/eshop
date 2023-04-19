@@ -1,8 +1,8 @@
 import React from 'react'
 // import { useEffect, useState } from 'react';
-import "./Home.css"
+import "../Styles/Home.css";
 import Product from './Product';
-import RandomQuote from './RandonQuote';
+import RandomQuote from './RandomQuote';
 
 const Home = () => {
 

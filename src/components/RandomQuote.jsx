@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import quotes from "./quotes.json";
-import "./RandonQuote.css";
+import quotes from "../Json/quotes.json";
+import "../Styles/RandomQuote.css";
 const RandomQuote = () => {
   const [quote, setQuote] = useState("");
 

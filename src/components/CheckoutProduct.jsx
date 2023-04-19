@@ -1,5 +1,5 @@
 import React from 'react'
-import "./CheckoutProduct.css";
+import "../Styles/CheckoutProduct.css";
 import StarHalfIcon from "@mui/icons-material/StarHalf";
 
 import {useStateValue} from "./StateProvider"

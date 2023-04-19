@@ -3,7 +3,7 @@ import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 import AppleIcon from "@mui/icons-material/Apple";
 import SearchIcon from "@mui/icons-material/Search";
 import { Link } from "react-router-dom";
-import "./header.css";
+import "../Styles/header.css";
 import { useStateValue } from "./StateProvider";
 
 const Header = () => {
