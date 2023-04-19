@@ -19,13 +19,13 @@ const Product = ({ id, title, price, rating, image }) => {
   };
   return (
     <div className="product">
-      <div className="product__info">
+      <div className="product-info">
         <p>{title}</p>
-        <p className="product__price">
+        <p className="product-price">
           <small>£</small>
           <strong>{price}</strong>
         </p>
-        <div className="product__rating">
+        <div className="product-rating">
           {Array(rating)
             .fill()
             .map((_, i) => (

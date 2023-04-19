@@ -19,12 +19,11 @@ const RandomQuote = () => {
     };
   }, []);
 
-
   return (
     <div className="quotes">
       <h2>Apple Wisdom</h2>
-      <p >{quote.quote}</p>
-      <img src={quote.image}  alt="wait for the amazing Quote"/>
+      <p>{quote.quote}</p>
+      <img src={quote.image} alt="wait for the amazing Quote" />
       <h4>{quote.author}</h4>
     </div>
   );

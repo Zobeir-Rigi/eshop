@@ -12,20 +12,20 @@
   z-index: 1;
   border-radius: 8px;
 }
-.product__info {
+.product-info {
   height: 100px;
   margin-bottom: 15px;
 }
 
-.product__price {
+.product-price {
   margin-top: 5px;
 }
 
-.product__rating {
+.product-rating {
   display: flex;
 }
-.product__rating .star-color {
-  color:red;
+.product-rating .star-color {
+  color: red;
 }
 
 .product > img {

@@ -1,14 +1,11 @@
-
-header{
+header {
   width: 100%;
   display: flex;
   justify-content: center;
-  color: rgba(0, 0, 0, .8);
-cursor: default;
-background-color: #fbfbfd;
-/* border-bottom: solid rgb(206, 197, 197) 1px; */
-
-
+  color: rgba(0, 0, 0, 0.8);
+  cursor: default;
+  background-color: #fbfbfd;
+  /* border-bottom: solid rgb(206, 197, 197) 1px; */
 }
 .header {
   height: 100px;
@@ -17,78 +14,72 @@ background-color: #fbfbfd;
   position: sticky; /* ??*/
   top: 0;
   z-index: 100; /* ?? */
-background-color: #fbfbfd;
-
+  background-color: #fbfbfd;
 }
 
-.header__logo {
+.header-logo {
   display: flex;
   align-items: center;
   margin: 0 25px; /*?? */
-  color: rgba(0, 0, 0, .8);
+  color: rgba(0, 0, 0, 0.8);
   /* width: 130px; */
-
 }
-.header__logoImage {
+.header-logoImage {
   margin-right: 10px;
 }
-.header__logoTitle {
+.header-logoTitle {
   text-decoration: none;
   border: 0;
 }
 /*************************/
-.header__search {
+.header-search {
   display: flex;
   flex: 1; /* ?? */
   align-items: center;
   border-radius: 24px;
   margin: 0 10px;
-
 }
-.header__searchInput {
+.header-searchInput {
   height: 12px;
   padding: 10px;
   border: none;
   width: 120px;
 }
-.header__searchIcon {
+.header-searchIcon {
   padding: 5px;
   height: 22px !important;
   background-color: #fbfbfd;
 }
 /*************************/
-.haeder__nav {
+.haeder-nav {
   display: flex;
   justify-content: space-evenly;
   width: fit-content;
-
 }
-.nav__item {
+.nav-item {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
   margin-right: 10px;
-  color: rgba(0, 0, 0, .8);
-
+  color: rgba(0, 0, 0, 0.8);
 }
-.nev__itemLineOne {
+.nev-itemLineOne {
   font-size: 10px;
 }
-.nav__itemLineTwo {
+.nav-itemLineTwo {
   font-size: 14px;
   font-weight: 800;
   padding: 0;
   margin: 0;
 }
-.nav__itemBasket {
+.nav-itemBasket {
   display: flex;
   align-items: center;
   margin-right: 50px;
   margin-left: 10px;
-  color: rgba(0, 0, 0, .8);
-
+  color: rgba(0, 0, 0, 0.8);
 }
-.nav__basketCount {
+.nav-basketCount {
   margin-left: 10px;
   margin-right: 10px;
 }

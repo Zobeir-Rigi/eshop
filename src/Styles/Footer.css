@@ -1,11 +1,10 @@
-.footer {
+footer {
   height: 60px;
   display: flex;
   justify-content: center;
   background-color: black;
-  
 }
-.footer__logo {
+.footer-logo {
   display: flex;
   align-items: center;
   color: orange;
@@ -24,9 +23,8 @@
 }
 .githubIcon:hover {
   color: rgb(213, 198, 198);
-  font-size:xx-large;
+  font-size: xx-large;
 }
-.footer__logo>a {
+.footer-logo > a {
   width: 50px;
 }
-

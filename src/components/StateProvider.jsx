@@ -11,4 +11,4 @@ export const StateProvider = ({ reducer, initialState, children }) => (
 
 //pull information from the data layer to use it in varius components
 export const useStateValue = () => useContext(StateContext);
- // with use context we acces to data
+// with use context we acces to data

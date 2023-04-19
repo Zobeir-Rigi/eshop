@@ -12,35 +12,35 @@ const Header = () => {
     <header>
       <div className="header">
         <Link to="/" style={{ textDecoration: "none" }}>
-          <div className="header__logo">
-            <AppleIcon className="header__logoImage" fontSize="large" />
-            <h2 className="header__logoTitle">The iLife</h2>
+          <div className="header-logo">
+            <AppleIcon className="header-logoImage" fontSize="large" />
+            <h2 className="header-logoTitle">The iLife</h2>
           </div>
         </Link>
 
-        <div className="header__search">
+        <div className="header-search">
           <input
             type="text"
             placeholder="Search apple.com ..."
-            className="header__searchInput"
+            className="header-searchInput"
           />
-          <SearchIcon className="header__searchIcon" />
+          <SearchIcon className="header-searchIcon" />
         </div>
-        <div className="haeder__nav">
+        <div className="haeder-nav">
           <Link to="/Login" style={{ textDecoration: "none" }}>
-            <div className="nav__item">
-              <span className="nev__itemLineOne">Hello Guest</span>
-              <span className="nav__itemLineTwo">Sign In</span>
+            <div className="nav-item">
+              <span className="nev-itemLineOne">Hello Guest</span>
+              <span className="nav-itemLineTwo">Sign In</span>
             </div>
           </Link>
-          <div className="nav__item">
-            <span className="nev__itemLineOne">Your</span>
-            <span className="nav__itemLineTwo">Shop</span>
+          <div className="nav-item">
+            <span className="nev-itemLineOne">Your</span>
+            <span className="nav-itemLineTwo">Shop</span>
           </div>
           <Link to="/Checkout" style={{ textDecoration: "none" }}>
-            <div className="nav__itemBasket">
+            <div className="nav-itemBasket">
               <ShoppingBasketIcon />
-              <span className="nav__itemLineTwo nav__basketCount">
+              <span className="nav-itemLineTwo nav-basketCount">
                 {[...basket].length}
               </span>
             </div>

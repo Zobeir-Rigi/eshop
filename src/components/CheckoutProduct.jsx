@@ -1,28 +1,28 @@
-import React from 'react'
+import React from "react";
 import "../Styles/CheckoutProduct.css";
 import StarHalfIcon from "@mui/icons-material/StarHalf";
 
-import {useStateValue} from "./StateProvider"
-const CheckoutProduct = ({id,image,title,price,rating}) => {
-  const [{basket},dispatch]=useStateValue();
-    console.log(basket)
-  const removeFromBasket =()=>{
+import { useStateValue } from "./StateProvider";
+const CheckoutProduct = ({ id, image, title, price, rating }) => {
+  const [{ basket }, dispatch] = useStateValue();
+  console.log(basket);
+  const removeFromBasket = () => {
     dispatch({
-      type:"REMOVE_FROM_BASKET",
+      type: "REMOVE_FROM_BASKET",
       id: id,
-    })
-  }
+    });
+  };
   return (
     <div className="CheckoutProduct">
-      <img src={image} alt="" className="checkoutproduct__image" />
+      <img src={image} alt="" className="checkoutproduct-image" />
 
-      <div className="ckeckoutProduct__info">
-        <p className="checkoutProduct__title">{title}</p>
-        <p className="checkoutProduct__price">
+      <div className="ckeckoutProduct-info">
+        <p className="checkoutProduct-title">{title}</p>
+        <p className="checkoutProduct-price">
           <small>£</small>
           <strong>{price}</strong>
         </p>
-        <div className="checkoutProduct__rating">
+        <div className="checkoutProduct-rating">
           {Array(rating)
             .fill()
             .map((_, i) => (
@@ -35,6 +35,6 @@ const CheckoutProduct = ({id,image,title,price,rating}) => {
       </div>
     </div>
   );
-}
+};
 
-export default CheckoutProduct
+export default CheckoutProduct;

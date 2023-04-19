@@ -4,14 +4,14 @@ import "../Styles/Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="footer__logo">
+    <footer>
+      <div className="footer-logo">
         <i className="myname">Created By @Zobeir</i>
         <a href="https://github.com/" target="_blank">
           <GitHubIcon className="githubIcon" />
         </a>
       </div>
-    </div>
+    </footer>
   );
 };
 
