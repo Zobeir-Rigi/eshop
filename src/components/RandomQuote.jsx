@@ -23,7 +23,7 @@ const RandomQuote = () => {
     <div className="quotes">
       <h2>Apple Wisdom</h2>
       <p>{quote.quote}</p>
-      <img src={quote.image} alt="wait for the amazing Quote" />
+      <img src={quote.image} alt="Brace yourself for an incredible quote." />
       <h4>{quote.author}</h4>
     </div>
   );

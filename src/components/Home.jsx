@@ -1,5 +1,4 @@
 import React from "react";
-// import { useEffect, useState } from 'react';
 import "../Styles/Home.css";
 import Product from "./Product";
 import RandomQuote from "./RandomQuote";
