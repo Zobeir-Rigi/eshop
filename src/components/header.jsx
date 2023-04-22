@@ -7,7 +7,7 @@ import "../Styles/header.css";
 import { useStateValue } from "./StateProvider";
 
 const Header = () => {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket }] = useStateValue();
   return (
     <header>
       <div className="header">

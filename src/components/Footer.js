@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <div className="footer-logo">
         <i className="myname">Created By @Zobeir</i>
-        <a href="https://github.com/" target="_blank">
+        <a href="https://github.com/" target="_blank" rel="noreferrer">
           <GitHubIcon className="githubIcon" />
         </a>
       </div>
