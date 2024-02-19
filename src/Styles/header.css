@@ -83,4 +83,18 @@ header {
   margin-left: 10px;
   margin-right: 10px;
 }
-/***************************/
+@media (max-width: 540px) {
+  .header {
+    height: 100%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .itemBasket {
+    margin-right: 0px;
+  }
+  .header_search {
+    width: 90%;
+  }
+}
