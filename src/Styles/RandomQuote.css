@@ -26,3 +26,8 @@
   width: 200px;
   height: 200px;
 }
+@media only screen and (max-width: 600px) {
+  .quotes>img {
+    margin-top: 87px;
+  }
+}
