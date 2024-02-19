@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Footer from "./components/Footer";
 
+import "./App.css";
 function App() {
   return (
     <div className="App">
