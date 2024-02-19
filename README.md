@@ -14,7 +14,7 @@ Feel free to check out the app live at <a href="https://main.d3q5vnfi8sdva3.ampl
 <h2>Getting Started</h2>
 To explore the project locally or contribute, follow these steps:
 
-Clone the repository:
+Clone the repository: <br>
 1- git clone https://github.com/Zobeir-Rigi/eshop.git <br>
 2- Install dependencies: npm install <br>
 3- Start the development server: npm start
