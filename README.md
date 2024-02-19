@@ -1,10 +1,10 @@
-The iLife Project
+<h1>The iLife Project</h1>h1>
 Hi everyone! 👋 Welcome to "The iLife" project – a full-stack eShop with a dynamic quote generator that brings a touch of inspiration to your browsing experience!
 
-Project Overview
+<h2>Project Overview</h2>
 "The iLife" seamlessly combines the functionality of a full-stack eShop with a dynamic quote generator. With quotes updating every 5 seconds, your shopping journey becomes not just transactional but also inspirational!
 
-Technologies Used
+<h2>Technologies Used</h2>
 React: Powering the smooth navigation and user interface.
 Firebase: Ensuring secure authentication for the login page.
 Context API: Employed to prevent props drilling and enhance data sharing.
@@ -12,7 +12,7 @@ Hooks (useContext, useReducer): Enhancing state management in various components
 Explore the App
 Feel free to check out the app live at The iLife App.
 
-Getting Started
+<h2>Getting Started</h2>
 To explore the project locally or contribute, follow these steps:
 
 Clone the repository:
@@ -20,7 +20,7 @@ Clone the repository:
 2- Install dependencies: npm install
 3- Start the development server: npm start
 
-Feedback
+<h2>Feedback</h2>
 I had a great time working on this project, and I'd love to hear your thoughts! 🤞
 Happy exploring! 🚀 https://main.d3q5vnfi8sdva3.amplifyapp.com/
 
