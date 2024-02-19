@@ -1,4 +1,4 @@
-<h1>The iLife Project</h1>h1>
+<h1>The iLife Project</h1>
 Hi everyone! 👋 Welcome to "The iLife" project – a full-stack eShop with a dynamic quote generator that brings a touch of inspiration to your browsing experience!
 
 <h2>Project Overview</h2>
